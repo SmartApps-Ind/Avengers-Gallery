@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Source+Sans+Pro&display=swap');
+
+/* RESET */
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+a{
+    color:rgb(41, 29, 212);
+    text-decoration: none;
+}
+body{
+    min-height: 100%;
+    width:100%;
+    line-height: 2;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(26, 25, 25);
+    position: relative;
+    overflow-x: hidden;
+    color:rgb(230, 180, 230);
+}
